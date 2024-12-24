@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in VBScript related to variable shadowing within functions. The function `f` attempts to assign a value directly to the function's name, which causes unexpected behavior when the condition is false. The solution provides a corrected version of the function where the return value is explicitly set, resolving the issue.
